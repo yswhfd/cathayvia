@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.vercel/
+.DS_Store
+f3bba515d5175d353172c1fe14eafe6d_raw.mp4
+demo.png
+page-check*
+*.sh

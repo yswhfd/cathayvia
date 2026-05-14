@@ -1,0 +1,31 @@
+<svg width="1600" height="1100" viewBox="0 0 1600 1100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="1100" fill="#101A24"/>
+  <rect y="690" width="1600" height="410" fill="url(#ground)"/>
+  <path d="M0 739C132 678 250 654 354 667C470 681 566 748 663 760C773 774 871 724 978 692C1107 652 1229 654 1345 692C1438 723 1523 781 1600 836V1100H0V739Z" fill="#162B3D"/>
+  <path d="M0 653C134 555 275 507 424 513C572 519 705 584 812 617C926 653 1015 651 1129 611C1252 568 1377 529 1600 588V754C1507 684 1397 644 1270 636C1128 628 1018 676 907 704C777 737 673 718 566 675C455 630 338 592 212 606C135 614 64 634 0 668V653Z" fill="url(#skyline)" opacity="0.92"/>
+  <path d="M84 690C165 608 228 565 273 563C314 561 340 595 349 662C362 762 377 853 394 935H165C144 842 117 760 84 690Z" fill="#593122"/>
+  <rect x="365" y="366" width="72" height="324" rx="16" fill="#6C4030"/>
+  <rect x="450" y="316" width="92" height="374" rx="18" fill="#7A4C39"/>
+  <rect x="558" y="272" width="100" height="418" rx="18" fill="#6C4030"/>
+  <rect x="676" y="234" width="118" height="456" rx="20" fill="#7A4C39"/>
+  <rect x="813" y="272" width="98" height="418" rx="18" fill="#6C4030"/>
+  <rect x="928" y="324" width="88" height="366" rx="18" fill="#7A4C39"/>
+  <rect x="1030" y="374" width="74" height="316" rx="16" fill="#6C4030"/>
+  <path d="M322 366H1120" stroke="#DBB188" stroke-width="22" stroke-linecap="round"/>
+  <path d="M357 310H1080" stroke="#ECCCA1" stroke-width="18" stroke-linecap="round"/>
+  <path d="M435 236H997" stroke="#F4D5AE" stroke-width="14" stroke-linecap="round"/>
+  <path d="M1125 595C1190 551 1261 529 1339 529C1409 529 1479 555 1551 607V718H1125V595Z" fill="#254862"/>
+  <path d="M1116 718C1180 679 1263 661 1366 664C1454 667 1532 688 1600 728V935H1116V718Z" fill="#183247"/>
+  <circle cx="1294" cy="213" r="77" fill="#F5B26A" opacity="0.92"/>
+  <path d="M206 270C295 196 403 163 530 171C663 180 768 248 861 259C955 270 1037 230 1127 203C1219 175 1323 171 1440 191" stroke="#F0C690" stroke-width="6" stroke-linecap="round" opacity="0.42"/>
+  <defs>
+    <linearGradient id="ground" x1="800" y1="690" x2="800" y2="1100" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1C3245"/>
+      <stop offset="1" stop-color="#101A24"/>
+    </linearGradient>
+    <linearGradient id="skyline" x1="800" y1="176" x2="800" y2="754" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#355069"/>
+      <stop offset="1" stop-color="#132535"/>
+    </linearGradient>
+  </defs>
+</svg>

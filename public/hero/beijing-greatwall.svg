@@ -1,0 +1,18 @@
+<svg width="1600" height="1100" viewBox="0 0 1600 1100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="1100" fill="#101823"/>
+  <circle cx="1188" cy="190" r="92" fill="#F0B36E"/>
+  <path d="M0 944C116 854 222 793 320 762C418 731 504 738 578 783C646 824 718 848 794 832C886 812 957 735 1064 711C1166 689 1273 727 1387 810C1456 860 1527 912 1600 968V1100H0V944Z" fill="#142B3C"/>
+  <path d="M0 783C128 687 252 633 372 621C500 608 608 656 698 690C797 728 883 728 959 689C1049 643 1118 565 1216 528C1308 493 1436 495 1600 571V884C1523 829 1440 787 1350 759C1237 723 1139 713 1044 747C944 783 868 856 754 876C658 893 572 865 494 817C412 766 326 744 237 753C158 760 79 783 0 822V783Z" fill="url(#mountains)"/>
+  <path d="M115 883C261 736 397 635 524 581C617 541 714 523 815 527C874 529 926 539 973 555" stroke="#6B7B5A" stroke-width="48" stroke-linecap="round"/>
+  <path d="M253 916C361 796 454 712 530 664C593 625 659 603 729 598C816 592 897 616 972 670" stroke="#A48657" stroke-width="32" stroke-linecap="round"/>
+  <path d="M427 940C493 860 552 798 604 752C647 714 696 691 750 684C802 677 852 688 900 714" stroke="#D7C39A" stroke-width="12" stroke-linecap="round"/>
+  <path d="M368 924C426 895 484 882 544 885C598 888 650 910 701 950" stroke="#F2D6AA" stroke-width="6" stroke-linecap="round" opacity="0.65"/>
+  <path d="M1048 710C1095 652 1145 614 1198 596C1260 575 1333 586 1418 631C1481 664 1542 712 1600 777V1100H1048V710Z" fill="#1D3C53"/>
+  <path d="M1110 821C1168 780 1226 760 1286 761C1347 762 1418 787 1498 837" stroke="#F0D4A6" stroke-width="7" stroke-linecap="round" opacity="0.4"/>
+  <defs>
+    <linearGradient id="mountains" x1="800" y1="487" x2="800" y2="884" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#394F5E"/>
+      <stop offset="1" stop-color="#132534"/>
+    </linearGradient>
+  </defs>
+</svg>

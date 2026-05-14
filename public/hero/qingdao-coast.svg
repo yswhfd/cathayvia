@@ -1,0 +1,29 @@
+<svg width="1600" height="1100" viewBox="0 0 1600 1100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="1100" fill="#0E1A26"/>
+  <rect y="596" width="1600" height="504" fill="url(#sea)"/>
+  <path d="M0 538C151 486 305 468 463 482C621 495 730 532 850 529C969 526 1092 484 1219 471C1347 458 1474 475 1600 523V640H0V538Z" fill="url(#sky)"/>
+  <path d="M0 688C152 652 276 641 374 656C492 675 587 735 697 748C836 764 930 708 1043 677C1148 649 1266 648 1397 683C1480 706 1548 739 1600 782V1100H0V688Z" fill="#12314A" opacity="0.68"/>
+  <path d="M136 702C268 679 402 672 537 681C738 694 894 741 1005 740C1126 739 1265 687 1417 686C1484 686 1545 694 1600 709V874C1489 830 1369 813 1239 822C1098 832 988 879 864 892C717 908 600 864 486 817C379 773 263 746 139 752C90 754 43 760 0 770V729C46 718 91 709 136 702Z" fill="#1B4B63"/>
+  <circle cx="1246" cy="180" r="84" fill="#F7B36D"/>
+  <path d="M126 626H772" stroke="#F6E3B8" stroke-width="14" stroke-linecap="round"/>
+  <path d="M308 626V867" stroke="#F6E3B8" stroke-width="18" stroke-linecap="round"/>
+  <path d="M273 704C325 668 379 650 435 650C512 650 589 683 666 752" stroke="#F6E3B8" stroke-width="12" stroke-linecap="round"/>
+  <rect x="890" y="446" width="140" height="160" rx="18" fill="#B04F3A"/>
+  <rect x="1018" y="406" width="164" height="200" rx="20" fill="#C45E45"/>
+  <rect x="1174" y="426" width="146" height="180" rx="18" fill="#B04F3A"/>
+  <rect x="1310" y="456" width="122" height="150" rx="18" fill="#C45E45"/>
+  <path d="M878 606H1448" stroke="#F4E8C8" stroke-width="18" stroke-linecap="round"/>
+  <path d="M920 552H1406" stroke="#F8F0DA" stroke-width="10" stroke-linecap="round"/>
+  <path d="M0 883C177 851 317 844 420 863C532 884 636 933 750 950C872 969 987 951 1096 916C1226 874 1394 845 1600 888V1100H0V883Z" fill="#0F2433" opacity="0.7"/>
+  <defs>
+    <linearGradient id="sea" x1="800" y1="596" x2="800" y2="1100" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1D5E77"/>
+      <stop offset="0.52" stop-color="#174A63"/>
+      <stop offset="1" stop-color="#102938"/>
+    </linearGradient>
+    <linearGradient id="sky" x1="800" y1="471" x2="800" y2="640" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#395B77"/>
+      <stop offset="1" stop-color="#163042"/>
+    </linearGradient>
+  </defs>
+</svg>
