@@ -4,7 +4,12 @@
       "Bash(npm install *)",
       "Bash(npm run *)",
       "Bash(/c/Program Files \\(x86\\)/Microsoft/Edge/Application/msedge.exe *)",
-      "Bash(node *)"
+      "Bash(node *)",
+      "Bash(npx playwright *)",
+      "Read(//c/Users/yswhf/AppData/Local/ms-playwright/chromium-1223/**)",
+      "Bash(C:/Users/yswhf/AppData/Local/ms-playwright/chromium-1223/chrome-win64/chrome.exe *)",
+      "Bash(npx *)",
+      "Bash(python *)"
     ]
   }
 }

@@ -180,6 +180,19 @@ const syncPlaybackState = async (video) => {
   }
 }
 
+const pauseVideo = (video) => {
+  if (!video) {
+    return
+  }
+
+  video.pause()
+}
+
+const pauseAllVideos = () => {
+  pauseVideo(heroVideoRef.value)
+  pauseVideo(floatingVideoRef.value)
+}
+
 const switchPlayerMode = async (floating) => {
   const currentVideo = floating ? heroVideoRef.value : floatingVideoRef.value
   capturePlaybackState(currentVideo)
@@ -191,9 +204,16 @@ const switchPlayerMode = async (floating) => {
 const dismissFloating = async () => {
   dismissedFloating.value = true
 
-  if (isFloating.value) {
-    await switchPlayerMode(false)
+  if (!isFloating.value) {
+    pauseAllVideos()
+    return
   }
+
+  capturePlaybackState(floatingVideoRef.value)
+  pauseAllVideos()
+  isFloating.value = false
+  await nextTick()
+  pauseAllVideos()
 }
 
 const handleVisibilityChange = async (entries) => {

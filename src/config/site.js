@@ -114,12 +114,12 @@ export const siteContent = {
       en: 'Find the trip that fits you between Beijing depth and Qingdao sea breeze.'
     },
     description: {
-      zh: '我们把北京的人文经典、长城山色与青岛的海岸散步、红瓦街区串成更容易下决定的城市旅行方案，让首访、亲子、情侣和摄影行程都能迅速找到方向。',
-      en: 'We shape Beijing heritage, Great Wall ridges, Qingdao shore walks, and red-roof districts into city routes that are easier to choose for first visits, couples, families, and photo-minded travelers.'
+      zh: '我们把北京故宫与长城的经典动线、青岛海岸与街区的轻松节奏整理成更好下决定的城市旅行方案，不论你偏好社交游、亲子游、银发游、自由行还是跟团游，都能更快找到适合的出发方式。',
+      en: 'We shape Beijing’s Forbidden City and Great Wall routes together with Qingdao’s coast and neighborhoods into city trips that are easier to choose, whether you prefer social trips, family travel, senior-friendly pacing, independent journeys, or guided groups.'
     },
     badges: {
-      zh: ['北京文化与长城风景', '青岛海岸与城市假期', '中英双语顾问式推荐'],
-      en: ['Beijing culture and Great Wall views', 'Qingdao coast and city escapes', 'Bilingual route guidance']
+      zh: ['故宫、长城与青岛海边实景路线', '社交游 / 亲子游 / 银发游 / 自由行 / 跟团游', '中英双语顾问式推荐'],
+      en: ['Forbidden City, Great Wall, and Qingdao coast routes', 'Social, family, senior, independent, and group trips', 'Bilingual route guidance']
     },
     primaryAction: {
       zh: { label: '查看热门线路', href: '#routes' },
@@ -131,14 +131,14 @@ export const siteContent = {
     },
     stats: {
       zh: [
-        { value: '2城', label: '两种旅行气质', detail: '北京的厚度，青岛的松弛' },
-        { value: '4条', label: '精选路线', detail: '文化、海岸、亲子、摄影' },
-        { value: '全年', label: '可排期出发', detail: '按季节与节奏灵活调整' }
+        { value: '2城', label: '双城旅行气质', detail: '北京的厚度，青岛的松弛' },
+        { value: '5类', label: '出行方式', detail: '社交、亲子、银发、自由、跟团' },
+        { value: '4条', label: '精选线路', detail: '按节奏和同行方式灵活挑选' }
       ],
       en: [
         { value: '2 cities', label: 'Two travel moods', detail: 'Beijing depth, Qingdao ease' },
-        { value: '4 routes', label: 'Curated itineraries', detail: 'Culture, coast, family, photo' },
-        { value: 'Year-round', label: 'Flexible departures', detail: 'Adjusted by season and pace' }
+        { value: '5 styles', label: 'Trip formats', detail: 'Social, family, senior, independent, group' },
+        { value: '4 routes', label: 'Curated itineraries', detail: 'Picked by pace and who you travel with' }
       ]
     },
     videoCard: {
@@ -166,15 +166,15 @@ export const siteContent = {
     title: { zh: '30 秒找到你的出行方向', en: 'Find your trip direction in 30 seconds' },
     fields: {
       zh: [
-        { label: '想要的季节', value: '春秋人文 / 夏日海风 / 周末短逃' },
-        { label: '适合的人群', value: '亲子 / 情侣 / 摄影 / 城市漫游' },
-        { label: '偏爱的节奏', value: '文化深游 / 海岸慢游 / 轻松短假' },
+        { label: '想要的季节', value: '春秋故宫 / 长城晴日 / 夏日海风' },
+        { label: '适合的人群', value: '社交游 / 亲子游 / 银发游 / 自由行 / 跟团游' },
+        { label: '偏爱的节奏', value: '轻松结伴 / 舒缓省心 / 灵活自选' },
         { label: '预算参考', value: '¥3,000 - ¥8,000+' }
       ],
       en: [
-        { label: 'Preferred season', value: 'Spring culture / summer coast / short breaks' },
-        { label: 'Traveler type', value: 'Family / couples / photo / city break' },
-        { label: 'Pacing', value: 'Cultural depth / coastal ease / relaxed getaway' },
+        { label: 'Preferred season', value: 'Forbidden City spring / Great Wall clear days / summer coast' },
+        { label: 'Traveler type', value: 'Social / family / senior / independent / group' },
+        { label: 'Pacing', value: 'Shared energy / easier flow / flexible timing' },
         { label: 'Budget guide', value: '$420 - $1,120+' }
       ]
     },
@@ -194,36 +194,36 @@ export const siteContent = {
       en: 'Beijing heritage and mountain ridges meet Qingdao sea breeze and holiday ease.'
     },
     intro: {
-      zh: '这组路线围绕两种鲜明的城市气质展开：如果你想在北京读懂历史与地标，就选文化与长城；如果你想在青岛放慢脚步，就选海岸漫游与亲子海洋假期。',
-      en: 'These routes are built around two distinct city moods: choose culture and the Great Wall for Beijing depth, or coastal strolls and family ocean breaks for a softer Qingdao rhythm.'
+      zh: '你可以先按同行方式来挑选线路：社交游更看重互动氛围，自由行更强调灵活节奏，亲子游、银发游与跟团游则更关注省心度、舒适度和行程衔接。',
+      en: 'Start by choosing how you want to travel: social trips favor shared energy, independent travel keeps more flexibility, while family, senior, and group trips put more weight on comfort, ease, and smoother scheduling.'
     },
     searchLabel: { zh: '关键词搜索', en: 'Keyword search' },
     searchPlaceholder: {
       zh: '搜索城市、景点、标签或线路名',
       en: 'Search cities, landmarks, tags, or route names'
     },
-    filterAriaLabel: { zh: '场景筛选', en: 'Scene filters' },
+    filterAriaLabel: { zh: '旅行方式筛选', en: 'Travel style filters' },
     budgetTitle: { zh: '预算上限', en: 'Budget cap' },
     budgetDescription: {
-      zh: '仅展示预算不高于当前阈值的线路',
-      en: 'Show only routes priced below the current threshold'
+      zh: '仅展示预算不高于当前阈值的线路，价格会有波动，仅供参考，请以实际报价为准。',
+      en: 'Show only routes priced below the current threshold. Prices may change and are for reference only; please confirm the final quote.'
     },
     budgetHint: {
-      zh: '这轮已经接入开放图片，后续如果你有更想要的故宫、长城或青岛海边图，也可以继续替换。',
-      en: 'This version already uses open travel imagery, and you can still replace it later with your preferred Forbidden City, Great Wall, or Qingdao coast photos.'
+      zh: '预算为单人参考价，可以先按预算筛选，再结合旅行方式缩小选择范围。',
+      en: 'Prices are shown as per-person references. Narrow by budget first, then refine by travel style.'
     },
     empty: {
-      zh: '当前筛选条件下没有匹配线路，可以放宽预算上限或切换场景试试。',
-      en: 'No routes match these filters. Try increasing the budget cap or switching the scene.'
+      zh: '当前筛选条件下没有匹配线路，可以放宽预算上限或切换旅行方式试试。',
+      en: 'No routes match these filters. Try increasing the budget cap or switching travel styles.'
     },
-    sceneLabelTitle: { zh: '适合场景', en: 'Best for' },
+    sceneLabelTitle: { zh: '适合方式', en: 'Best for' },
     budgetLabel: { zh: '预算', en: 'Price' },
     seasonLabel: { zh: '推荐季节', en: 'Best season' }
   },
   featuredRoutes: [
     {
       id: 'beijing-axis-culture',
-      scene: 'culture',
+      scenes: ['senior', 'group'],
       title: { zh: '北京中轴文化深游', en: 'Beijing central axis culture route' },
       region: {
         zh: '故宫 / 景山 / 钟鼓楼 / 什刹海 / 前门',
@@ -234,23 +234,23 @@ export const siteContent = {
       rating: '4.9',
       season: { zh: '3 - 5 月 / 9 - 11 月', en: 'Mar - May / Sep - Nov' },
       summary: {
-        zh: '适合第一次到北京、希望用更连贯的步行与文化动线理解城市的人群。',
-        en: 'Best for first-time Beijing visitors who want a coherent cultural walk through the city core.'
+        zh: '适合第一次到北京、希望用更连贯的步行与文化动线理解城市的人群，也适合长辈同行与省心型出行安排。',
+        en: 'Best for first-time Beijing visitors who want a coherent cultural walk through the city core, with a pace that also works well for senior travelers and guided planning.'
       },
       highlights: {
-        zh: ['中轴文化密度高', '步行体验完整', '适合城市历史爱好者'],
-        en: ['High heritage density', 'Strong walkable flow', 'Great for history-minded travelers']
+        zh: ['中轴文化密度高', '行程节奏相对平稳', '适合长辈或省心型安排行程'],
+        en: ['High heritage density', 'More even daily pacing', 'Works for seniors or lower-effort planning']
       },
       tags: {
-        zh: ['北京', '人文', '首访'],
-        en: ['Beijing', 'culture', 'first visit']
+        zh: ['北京', '故宫', '银发游', '跟团游'],
+        en: ['Beijing', 'Forbidden City', 'senior', 'group']
       },
       gallery: beijingCultureGallery,
       accent: { from: '#5d2e1f', to: '#b5653c', glow: '#e6b17e' }
     },
     {
       id: 'beijing-greatwall-photo',
-      scene: 'photo',
+      scenes: ['social', 'independent'],
       title: { zh: '北京长城秋色摄影线', en: 'Beijing Great Wall photo route' },
       region: {
         zh: '慕田峪 / 古北口 / 山间观景点 / 日落机位',
@@ -261,23 +261,23 @@ export const siteContent = {
       rating: '4.8',
       season: { zh: '9 - 11 月', en: 'Sep - Nov' },
       summary: {
-        zh: '把长城山脊、红叶时段和摄影机位整合成更明确的短线方案。',
-        en: 'A focused short route built around ridge views, autumn color, and clean shooting windows.'
+        zh: '把长城山脊、红叶时段和摄影机位整合成更明确的短线方案，适合朋友结伴出发，也适合喜欢自己掌握节奏的人。',
+        en: 'A focused short route built around ridge views, autumn color, and clean shooting windows for friends traveling together or travelers who want to set their own pace.'
       },
       highlights: {
-        zh: ['山脊层次突出', '适合周末短线', '日出日落氛围强'],
-        en: ['Layered ridge views', 'Works for weekends', 'Strong sunrise and sunset mood']
+        zh: ['山脊层次突出', '适合结伴周末短线', '日出日落氛围强'],
+        en: ['Layered ridge views', 'Great for social weekend trips', 'Strong sunrise and sunset mood']
       },
       tags: {
-        zh: ['北京', '摄影', '长城'],
-        en: ['Beijing', 'photo', 'Great Wall']
+        zh: ['北京', '长城', '社交游', '自由行'],
+        en: ['Beijing', 'Great Wall', 'social', 'independent']
       },
       gallery: beijingWallGallery,
       accent: { from: '#4f2d1f', to: '#9d5c3d', glow: '#f2c078' }
     },
     {
       id: 'qingdao-coast-romance',
-      scene: 'romance',
+      scenes: ['social', 'independent'],
       title: { zh: '青岛海岸漫游假期', en: 'Qingdao coastal escape' },
       region: {
         zh: '栈桥 / 八大关 / 小鱼山 / 石老人海岸',
@@ -288,23 +288,23 @@ export const siteContent = {
       rating: '4.8',
       season: { zh: '4 - 6 月 / 9 - 10 月', en: 'Apr - Jun / Sep - Oct' },
       summary: {
-        zh: '适合情侣或城市漫游型旅客，把海风、红瓦和慢节奏假期感打包到一起。',
-        en: 'Ideal for couples and city strollers looking for sea breeze, red-roof views, and a slower holiday tempo.'
+        zh: '适合朋友同行或城市漫游型旅客，把海风、红瓦和慢节奏假期感打包到一起，也保留较高的自由度。',
+        en: 'Ideal for social city breaks and travelers who want a freer pace, combining sea breeze, red-roof views, and a slower holiday rhythm.'
       },
       highlights: {
-        zh: ['海岸线体验完整', '老城氛围鲜明', '适合轻松拍照'],
-        en: ['Complete coast feel', 'Distinct old-town mood', 'Easy photo-friendly pacing']
+        zh: ['海岸线体验完整', '老城氛围鲜明', '适合轻松拍照与自由停留'],
+        en: ['Complete coast feel', 'Distinct old-town mood', 'Easy for photos and flexible stops']
       },
       tags: {
-        zh: ['青岛', '情侣', '海岸'],
-        en: ['Qingdao', 'couples', 'coast']
+        zh: ['青岛', '海边', '社交游', '自由行'],
+        en: ['Qingdao', 'coast', 'social', 'independent']
       },
       gallery: qingdaoCoastGallery,
       accent: { from: '#0d4f6d', to: '#3a86a0', glow: '#ffd166' }
     },
     {
       id: 'qingdao-family-ocean',
-      scene: 'family',
+      scenes: ['family', 'group'],
       title: { zh: '青岛亲子海洋轻假期', en: 'Qingdao family ocean break' },
       region: {
         zh: '海昌极地 / 奥帆中心 / 第二海水浴场 / 啤酒博物馆周边',
@@ -315,71 +315,82 @@ export const siteContent = {
       rating: '4.7',
       season: { zh: '5 - 10 月', en: 'May - Oct' },
       summary: {
-        zh: '更偏向亲子与轻松型家庭，把海洋体验、海边活动和城市便利度结合起来。',
-        en: 'Built for families seeking marine attractions, breezy seafront time, and city convenience in one trip.'
+        zh: '更偏向亲子与轻松型家庭，把海洋体验、海边活动和城市便利度结合起来，也适合希望少操心的成团出行。',
+        en: 'Built for families seeking marine attractions, breezy seafront time, and city convenience, while also fitting travelers who prefer a more guided group format.'
       },
       highlights: {
-        zh: ['车程相对友好', '亲子内容集中', '海边活动选择多'],
-        en: ['Relatively easy transfers', 'Family-focused stops', 'Plenty of seaside activities']
+        zh: ['车程相对友好', '亲子内容集中', '适合家庭和省心型出行'],
+        en: ['Relatively easy transfers', 'Family-focused stops', 'Works for family and lower-effort group travel']
       },
       tags: {
-        zh: ['青岛', '亲子', '海洋'],
-        en: ['Qingdao', 'family', 'ocean']
+        zh: ['青岛', '亲子游', '海洋', '跟团游'],
+        en: ['Qingdao', 'family', 'ocean', 'group']
       },
       gallery: qingdaoFamilyGallery,
       accent: { from: '#16697a', to: '#489fb5', glow: '#f4d35e' }
     }
   ],
   scenesSection: {
-    eyebrow: { zh: '出行场景', en: 'TRAVEL SCENES' },
-    title: { zh: '按人群与目的挑北京 / 青岛线路', en: 'Pick Beijing or Qingdao routes by traveler need' },
+    eyebrow: { zh: '出行方式', en: 'TRAVEL STYLES' },
+    title: { zh: '按同行方式挑北京 / 青岛线路', en: 'Pick Beijing or Qingdao routes by travel style' },
     intro: {
-      zh: '虽然城市收束到两座，但推荐逻辑仍然按人群和目的来切分。',
-      en: 'The destination set stays focused, while route logic is still guided by traveler intent.'
+      zh: '虽然城市收束到两座，但路线节奏会随着同行人群和出发方式明显不同。',
+      en: 'The destination set stays focused, but the route rhythm changes noticeably depending on who you travel with and how you want the trip to feel.'
     },
     items: [
       {
-        id: 'family',
-        label: { zh: '亲子家庭', en: 'Family trips' },
-        audience: { zh: '低龄亲子 / 暑期出行', en: 'Young kids / summer travel' },
+        id: 'social',
+        label: { zh: '社交游', en: 'Social trips' },
+        audience: { zh: '朋友结伴 / 小团队出发', en: 'Friends / small groups' },
         description: {
-          zh: '优先考虑景点密度、交通便利和活动强度。',
-          en: 'Prioritizes stop density, transfer ease, and manageable activity levels.'
+          zh: '更强调互动感、合照点位和一起出发时的轻松氛围。',
+          en: 'Built for shared energy, easy group moments, and stops that work well when traveling together.'
         },
-        metric: { zh: '亲子 + 轻松', en: 'Family + easy' },
-        accent: '#7c9885'
-      },
-      {
-        id: 'romance',
-        label: { zh: '情侣度假', en: 'Couple escapes' },
-        audience: { zh: '双人短假 / 城市慢游', en: 'Two-person short breaks' },
-        description: {
-          zh: '更在意氛围感、拍照和街区停留时间。',
-          en: 'Values atmosphere, photos, and slower neighborhood wandering.'
-        },
-        metric: { zh: '海岸 + 氛围', en: 'Coast + mood' },
+        metric: { zh: '热闹 + 互动', en: 'Shared + lively' },
         accent: '#d17b88'
       },
       {
-        id: 'photo',
-        label: { zh: '摄影采风', en: 'Photography' },
-        audience: { zh: '内容创作者 / 周末出片', en: 'Creators / weekend shoots' },
+        id: 'family',
+        label: { zh: '亲子游', en: 'Family trips' },
+        audience: { zh: '家庭同行 / 假期轻松出发', en: 'Family travel / easier holidays' },
         description: {
-          zh: '优先安排清晨、黄昏和高概率机位。',
-          en: 'Built around dawn, sunset, and high-probability shooting windows.'
+          zh: '优先考虑交通便利、活动强度和小朋友的参与感。',
+          en: 'Prioritizes transfer ease, manageable activity levels, and child-friendly participation.'
         },
-        metric: { zh: '机位 + 光线', en: 'Spots + light' },
+        metric: { zh: '轻松 + 安心', en: 'Easy + family' },
+        accent: '#7c9885'
+      },
+      {
+        id: 'senior',
+        label: { zh: '银发游', en: 'Senior trips' },
+        audience: { zh: '长辈同行 / 节奏舒缓', en: 'Senior travelers / gentler pace' },
+        description: {
+          zh: '更看重舒适度、经典景点可达性和减少高强度转场。',
+          en: 'Focuses on comfort, easy access to classic sights, and fewer high-effort transitions.'
+        },
+        metric: { zh: '舒缓 + 省力', en: 'Gentle + steady' },
+        accent: '#8b7fb1'
+      },
+      {
+        id: 'independent',
+        label: { zh: '自由行', en: 'Independent trips' },
+        audience: { zh: '喜欢自主安排 / 灵活停留', en: 'Self-planned / flexible pacing' },
+        description: {
+          zh: '适合想自己掌握节奏、保留停留弹性和路线自由度的人。',
+          en: 'Best for travelers who want to control the pace, keep flexible stops, and shape the route themselves.'
+        },
+        metric: { zh: '灵活 + 自主', en: 'Flexible + free' },
         accent: '#587291'
       },
       {
-        id: 'culture',
-        label: { zh: '城市人文', en: 'Urban culture' },
-        audience: { zh: '首访北京 / 城市故事控', en: 'First-time Beijing / heritage lovers' },
+        id: 'group',
+        label: { zh: '跟团游', en: 'Group trips' },
+        audience: { zh: '首次出发 / 希望省心', en: 'First-time planning / lower effort' },
         description: {
-          zh: '更重视文化线索、地标串联与街区体验。',
-          en: 'Focuses on cultural sequencing, landmark flow, and district character.'
+          zh: '适合希望行程更清晰、衔接更省心、减少自己做攻略负担的人。',
+          en: 'Great for travelers who want clearer schedules, smoother coordination, and less planning work on their own.'
         },
-        metric: { zh: '文化 + 行走', en: 'Culture + walking' },
+        metric: { zh: '省心 + 高效', en: 'Guided + easy' },
         accent: '#b86462'
       }
     ]
@@ -391,40 +402,40 @@ export const siteContent = {
       en: 'The same city should open up differently for different travelers.'
     },
     intro: {
-      zh: '无论你想在北京读懂历史脉络，还是想在青岛把假期过得更轻松，这些路线都围绕真实的旅行感受来组织，而不是简单堆砌景点。',
-      en: 'Whether you want to read history through Beijing or slow down through Qingdao, these routes are shaped around how the trip should feel, not just how many sights can be packed in.'
+      zh: '无论你想在北京读懂历史脉络，还是想在青岛把假期过得更轻松，这些路线都围绕真实的旅行方式来组织，而不是简单堆砌景点。',
+      en: 'Whether you want to read history through Beijing or slow down through Qingdao, these routes are organized around how the trip should work for you, not just how many sights can be packed in.'
     },
     items: [
       {
-        title: { zh: '给第一次去的人清晰方向', en: 'Clear direction for first-time visitors' },
+        title: { zh: '按同行方式匹配节奏', en: 'Pace each route by who travels with you' },
         description: {
-          zh: '从北京中轴到青岛海岸，每条路线都先回答“第一次去应该看什么、怎么走更顺”。',
-          en: 'From Beijing avenues to Qingdao shores, each route starts by answering what first-time visitors should see and how to move through it smoothly.'
-        },
-        metric: { zh: '首访友好', en: 'First-trip friendly' }
-      },
-      {
-        title: { zh: '让假期节奏更贴合同行的人', en: 'Travel pacing that fits who you go with' },
-        description: {
-          zh: '亲子、情侣、摄影和城市漫游会有不同的停留方式，路线因此也该完全不同。',
-          en: 'Families, couples, photographers, and city wanderers all stop differently, so the route should change with them.'
+          zh: '社交游更看重互动和气氛，亲子游与银发游则更看重舒适度、便利度和停留节奏。',
+          en: 'Social trips lean into shared energy, while family and senior travel put more emphasis on comfort, ease, and stop pacing.'
         },
         metric: { zh: '按人群定节奏', en: 'Paced by traveler type' }
       },
       {
-        title: { zh: '在有限时间里保留城市记忆点', en: 'Keep the city’s signature moments within limited time' },
+        title: { zh: '在自由度和省心度之间给出选择', en: 'Offer a clear range from freedom to convenience' },
         description: {
-          zh: '无论是周末短假还是 4 天城市线，重点都放在真正容易留下印象的场景与节奏上。',
-          en: 'Whether it is a short weekend or a four-day itinerary, the focus stays on scenes and rhythms that travelers actually remember.'
+          zh: '自由行保留更多自主安排空间，跟团游则把路线衔接和出发效率放在更前面。',
+          en: 'Independent trips leave more room for self-directed planning, while group trips move smoother coordination and convenience higher up the list.'
         },
-        metric: { zh: '短假也有记忆点', en: 'Memorable even on short breaks' }
+        metric: { zh: '灵活到省心', en: 'Flexible to guided' }
+      },
+      {
+        title: { zh: '让经典景点和真实体验同时成立', en: 'Balance landmark classics with real trip feel' },
+        description: {
+          zh: '从故宫、长城到青岛海边，重点不是堆景点数量，而是让线路真的适合你的出发方式。',
+          en: 'From the Forbidden City and Great Wall to the Qingdao coast, the goal is not counting sights but making the route genuinely fit the way you travel.'
+        },
+        metric: { zh: '景点 + 体验', en: 'Landmarks + feel' }
       }
     ],
     aside: {
-      title: { zh: '更适合这样的人', en: 'Especially good for travelers who' },
+      title: { zh: '你也可以这样理解', en: 'You can also think about these trips this way' },
       points: {
-        zh: ['第一次去北京或青岛，想少走弯路', '带家人、伴侣或朋友出行，希望节奏更合适', '比起打卡数量，更在意旅行感受与记忆点'],
-        en: ['are visiting Beijing or Qingdao for the first time', 'travel with family, partners, or friends and want better pacing', 'care more about feel and memory than simply counting landmarks']
+        zh: ['社交游和自由行，想保留更多互动与节奏自由', '亲子游和银发游，更重视舒适度与出行省力', '跟团游，希望路线衔接清晰、少做攻略也能顺利出发'],
+        en: ['social and independent trips, when you want more shared moments or more control', 'family and senior trips, when comfort and easier movement matter more', 'group trips, when you want clearer coordination with less planning effort']
       }
     }
   },
@@ -446,17 +457,17 @@ export const siteContent = {
     coverImage: '/contact/consultant-visual.svg',
     qrImage: '/contact/wechat-qr.svg',
     note: {
-      zh: '支持北京 / 青岛城市首访、亲子短假、情侣漫游、摄影路线与品牌合作咨询。',
-      en: 'Available for first-time Beijing and Qingdao trips, family breaks, couple escapes, photography routes, and collaboration requests.'
+      zh: '支持北京 / 青岛城市首访、社交游、亲子游、银发游、自由行、跟团游与品牌合作咨询。',
+      en: 'Available for first-time Beijing and Qingdao trips, social travel, family breaks, senior-friendly routes, independent journeys, group trips, and collaboration requests.'
     },
     tips: {
       zh: {
-        primary: '当前联系区字段已改成更适合国际咨询的方式，后续仍可继续改配置值。',
-        secondary: '等你补真实景点图片后，线路图和轮播图也只需要替换对应路径。'
+        primary: '如果你已经确定偏好，我们可以继续按出行方式、季节和预算缩小到更适合的线路。',
+        secondary: '也可以直接说明你更偏向社交游、亲子游、银发游、自由行还是跟团游。'
       },
       en: {
-        primary: 'The contact block now uses a more international set of channels, while still staying configuration-driven.',
-        secondary: 'Once you provide real destination photos, both route galleries and hero slides can be updated by replacing file paths only.'
+        primary: 'If you already know your preference, we can narrow the options further by travel style, season, and budget.',
+        secondary: 'You can also tell us directly whether you lean toward social, family, senior, independent, or group travel.'
       }
     },
     tags: {

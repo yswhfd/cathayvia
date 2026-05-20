@@ -70,7 +70,7 @@
               </div>
               <div>
                 <span>{{ section.sceneLabelTitle }}</span>
-                <strong>{{ sceneLabelMap[route.scene] }}</strong>
+                <strong>{{ formatRouteScenes(route) }}</strong>
               </div>
             </div>
 
@@ -133,43 +133,57 @@ const sceneFilter = ref('all')
 const sceneOptions = {
   zh: [
     { label: '全部', value: 'all' },
-    { label: '亲子', value: 'family' },
-    { label: '情侣', value: 'romance' },
-    { label: '摄影', value: 'photo' },
-    { label: '人文', value: 'culture' }
+    { label: '社交游', value: 'social' },
+    { label: '亲子游', value: 'family' },
+    { label: '银发游', value: 'senior' },
+    { label: '自由行', value: 'independent' },
+    { label: '跟团游', value: 'group' }
   ],
   en: [
     { label: 'All', value: 'all' },
+    { label: 'Social', value: 'social' },
     { label: 'Family', value: 'family' },
-    { label: 'Couples', value: 'romance' },
-    { label: 'Photo', value: 'photo' },
-    { label: 'Culture', value: 'culture' }
+    { label: 'Senior', value: 'senior' },
+    { label: 'Independent', value: 'independent' },
+    { label: 'Group', value: 'group' }
   ]
 }
 
 const sceneLabels = {
   zh: {
-    family: '亲子家庭',
-    romance: '情侣度假',
-    photo: '摄影采风',
-    culture: '城市人文'
+    social: '社交游',
+    family: '亲子游',
+    senior: '银发游',
+    independent: '自由行',
+    group: '跟团游'
   },
   en: {
+    social: 'Social trips',
     family: 'Family trips',
-    romance: 'Couple escapes',
-    photo: 'Photography',
-    culture: 'Urban culture'
+    senior: 'Senior trips',
+    independent: 'Independent trips',
+    group: 'Group trips'
   }
 }
 
 const localizedSceneOptions = computed(() => sceneOptions[props.locale])
 const sceneLabelMap = computed(() => sceneLabels[props.locale])
 
+const formatRouteScenes = (route) => {
+  const labels = (route.scenes || []).map((scene) => sceneLabelMap.value[scene]).filter(Boolean)
+
+  if (labels.length === 0) {
+    return ''
+  }
+
+  return props.locale === 'zh' ? labels.join(' / ') : labels.join(' / ')
+}
+
 const filteredRoutes = computed(() => {
   const keyword = query.value.toLowerCase()
 
   return props.routes.filter((route) => {
-    const matchesScene = sceneFilter.value === 'all' || route.scene === sceneFilter.value
+    const matchesScene = sceneFilter.value === 'all' || route.scenes?.includes(sceneFilter.value)
     const matchesBudget = route.budgetValue <= budgetLimit.value
     const matchesKeyword =
       keyword.length === 0 ||
